@@ -1,0 +1,15 @@
+{
+  "name": "anvl-forge-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for ANVL Forge — quest templates, craft recipes, rarity system, and conversion config. Build Discord bots, Telegram bots, or dashboards on top of the ANVL Forge ecosystem.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "keywords": ["anvl", "forge", "solana", "sdk", "quest", "crafting", "p2e", "gamefi"],
+  "license": "MIT",
+  "scripts": { "build": "tsc", "dev": "tsc --watch" },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript":  "^5.4.2"
+  }
+}
